@@ -51,6 +51,8 @@ private:
 	// ゲーム終了フラグ trueで終了する
 	bool		m_endFlag = false;
 
+	//カメラ
+	std::shared_ptr<KdCamera> m_spCamera = nullptr;//カメラを生み出す宣言
 
 //=====================================================
 // シングルトンパターン
